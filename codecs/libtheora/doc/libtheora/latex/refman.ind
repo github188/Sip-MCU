@@ -1,0 +1,123 @@
+\begin{theindex}
+
+  \item {OC\_\-CS\_\-ITU\_\-REC\_\-470BG}
+    \subitem {theora.h}, 18
+  \item {OC\_\-CS\_\-ITU\_\-REC\_\-470M}
+    \subitem {theora.h}, 18
+  \item {OC\_\-CS\_\-NSPACES}
+    \subitem {theora.h}, 18
+  \item {OC\_\-CS\_\-UNSPECIFIED}
+    \subitem {theora.h}, 18
+  \item {OC\_\-PF\_\-420}
+    \subitem {theora.h}, 18
+  \item {OC\_\-PF\_\-422}
+    \subitem {theora.h}, 18
+  \item {OC\_\-PF\_\-444}
+    \subitem {theora.h}, 18
+  \item {OC\_\-PF\_\-RSVD}
+    \subitem {theora.h}, 18
+
+  \indexspace
+
+  \item {theora.h}, 15
+    \subitem {OC\_\-CS\_\-ITU\_\-REC\_\-470BG}, 18
+    \subitem {OC\_\-CS\_\-ITU\_\-REC\_\-470M}, 18
+    \subitem {OC\_\-CS\_\-NSPACES}, 18
+    \subitem {OC\_\-CS\_\-UNSPECIFIED}, 18
+    \subitem {OC\_\-PF\_\-420}, 18
+    \subitem {OC\_\-PF\_\-422}, 18
+    \subitem {OC\_\-PF\_\-444}, 18
+    \subitem {OC\_\-PF\_\-RSVD}, 18
+    \subitem {theora\_\-clear}, 19
+    \subitem {theora\_\-colorspace}, 18
+    \subitem {theora\_\-comment\_\-add}, 19
+    \subitem {theora\_\-comment\_\-add\_\-tag}, 19
+    \subitem {theora\_\-comment\_\-clear}, 19
+    \subitem {theora\_\-comment\_\-init}, 19
+    \subitem {theora\_\-comment\_\-query}, 19
+    \subitem {theora\_\-comment\_\-query\_\-count}, 20
+    \subitem {theora\_\-decode\_\-header}, 20
+    \subitem {theora\_\-decode\_\-init}, 21
+    \subitem {theora\_\-decode\_\-packetin}, 21
+    \subitem {theora\_\-decode\_\-YUVout}, 21
+    \subitem {theora\_\-encode\_\-comment}, 22
+    \subitem {theora\_\-encode\_\-header}, 22
+    \subitem {theora\_\-encode\_\-init}, 22
+    \subitem {theora\_\-encode\_\-packetout}, 22
+    \subitem {theora\_\-encode\_\-tables}, 23
+    \subitem {theora\_\-encode\_\-YUVin}, 23
+    \subitem {theora\_\-granule\_\-frame}, 23
+    \subitem {theora\_\-granule\_\-shift}, 24
+    \subitem {theora\_\-granule\_\-time}, 24
+    \subitem {theora\_\-info\_\-clear}, 25
+    \subitem {theora\_\-info\_\-init}, 25
+    \subitem {theora\_\-packet\_\-isheader}, 25
+    \subitem {theora\_\-packet\_\-iskeyframe}, 25
+    \subitem {theora\_\-pixelformat}, 18
+    \subitem {theora\_\-version\_\-number}, 26
+    \subitem {theora\_\-version\_\-string}, 26
+  \item {theora\_\-clear}
+    \subitem {theora.h}, 19
+  \item {theora\_\-colorspace}
+    \subitem {theora.h}, 18
+  \item {theora\_\-comment}, 9
+  \item {theora\_\-comment\_\-add}
+    \subitem {theora.h}, 19
+  \item {theora\_\-comment\_\-add\_\-tag}
+    \subitem {theora.h}, 19
+  \item {theora\_\-comment\_\-clear}
+    \subitem {theora.h}, 19
+  \item {theora\_\-comment\_\-init}
+    \subitem {theora.h}, 19
+  \item {theora\_\-comment\_\-query}
+    \subitem {theora.h}, 19
+  \item {theora\_\-comment\_\-query\_\-count}
+    \subitem {theora.h}, 20
+  \item {theora\_\-decode\_\-header}
+    \subitem {theora.h}, 20
+  \item {theora\_\-decode\_\-init}
+    \subitem {theora.h}, 21
+  \item {theora\_\-decode\_\-packetin}
+    \subitem {theora.h}, 21
+  \item {theora\_\-decode\_\-YUVout}
+    \subitem {theora.h}, 21
+  \item {theora\_\-encode\_\-comment}
+    \subitem {theora.h}, 22
+  \item {theora\_\-encode\_\-header}
+    \subitem {theora.h}, 22
+  \item {theora\_\-encode\_\-init}
+    \subitem {theora.h}, 22
+  \item {theora\_\-encode\_\-packetout}
+    \subitem {theora.h}, 22
+  \item {theora\_\-encode\_\-tables}
+    \subitem {theora.h}, 23
+  \item {theora\_\-encode\_\-YUVin}
+    \subitem {theora.h}, 23
+  \item {theora\_\-granule\_\-frame}
+    \subitem {theora.h}, 23
+  \item {theora\_\-granule\_\-shift}
+    \subitem {theora.h}, 24
+  \item {theora\_\-granule\_\-time}
+    \subitem {theora.h}, 24
+  \item {theora\_\-info}, 11
+  \item {theora\_\-info\_\-clear}
+    \subitem {theora.h}, 25
+  \item {theora\_\-info\_\-init}
+    \subitem {theora.h}, 25
+  \item {theora\_\-packet\_\-isheader}
+    \subitem {theora.h}, 25
+  \item {theora\_\-packet\_\-iskeyframe}
+    \subitem {theora.h}, 25
+  \item {theora\_\-pixelformat}
+    \subitem {theora.h}, 18
+  \item {theora\_\-state}, 13
+  \item {theora\_\-version\_\-number}
+    \subitem {theora.h}, 26
+  \item {theora\_\-version\_\-string}
+    \subitem {theora.h}, 26
+
+  \indexspace
+
+  \item {yuv\_\-buffer}, 14
+
+\end{theindex}

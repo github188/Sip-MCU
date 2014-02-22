@@ -1,0 +1,4 @@
+**** NEWS ****
+
+  * 30.07.2010 - Here we probably have the first working version. At least, I got it running when being called. For outgoing calls it doesn't work yet.
+  			   	 But be aware of the one change you have to make in linphone/coreapi/sal_eXosip2_sdp.c, see README for more information!

@@ -1,0 +1,15 @@
+[rtmp_client]
+username=user1
+password=password1
+server=localhost
+stream=live_tv
+record=0
+live=0
+append=0
+mic_dev=Microsoft ÉùÒôÓ³ÉäÆ÷
+mic_vol=41
+mic_rate=32000
+cam_bw=2
+cam_dev=Built-in iSight
+cam_fps=7
+

@@ -1,0 +1,17 @@
+***********************************************************************************************************
+* msg722 - a GPL plugin to bring audio G.722 encoding/decoding capabilities to mediastreamer2 applications.
+* Created by Simon Brenner, http://www.simonbrenner.org
+* last updated: 30.07.2010
+***********************************************************************************************************
+
+  * Up to now, the plugin probably only works for incoming calls!
+
+  * apply the sed patch with sh prepare_linphone_for_g722.sh <path-to-linphone-sources>
+
+  * prepare with ./autogen.sh
+  * compile msg722 with ./configure && make && make install
+
+  * we only need to apply one more patch in this version, the filter is now registered correctly with the
+  	help of Linphone library functions
+  * in coreapi/sal_eXosip2_sdp.c there's the line: "pt->clock_rate=atoi(p);" which has to be changed to
+  	"pt->clock_rate = (!strcasecmp(mime,"G722") ? 16000 : atoi(p));"

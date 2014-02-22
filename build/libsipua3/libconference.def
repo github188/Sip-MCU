@@ -1,0 +1,241 @@
+LIBRARY	libconference
+
+EXPORTS
+linphone_core_new  @1   NONAME; linphone_core_new
+linphone_core_iterate  @2   NONAME; linphone_core_iterate
+linphone_core_destroy  @3   NONAME; linphone_core_destroy
+linphone_core_invite  @4   NONAME; linphone_core_invite
+linphone_core_accept_call  @5   NONAME; linphone_core_accept_call
+linphone_core_get_current_call  @6   NONAME; linphone_core_get_current_call
+linphone_core_terminate_call  @7   NONAME; linphone_core_terminate_call
+linphone_core_terminate_all_calls  @8   NONAME; linphone_core_terminate_all_calls
+linphone_core_pause_all_calls  @9   NONAME; linphone_core_pause_all_calls
+linphone_core_enable_echo_cancellation  @10   NONAME; linphone_core_enable_echo_cancellation
+linphone_core_pause_call  @11   NONAME; linphone_core_pause_call
+linphone_core_resume_call  @12  NONAME; linphone_core_resume_call
+linphone_core_get_calls  @13   NONAME; linphone_core_get_calls
+linphone_core_in_call  @14   NONAME; linphone_core_in_call
+linphone_call_get_remote_address  @15   NONAME; linphone_call_get_remote_address 
+linphone_call_get_dir  @16   NONAME; linphone_call_get_dir
+linphone_call_state_to_string  @17   NONAME; linphone_call_state_to_string
+linphone_call_get_duration  @18   NONAME; linphone_call_get_duration
+linphone_core_get_current_call_duration  @19   NONAME; linphone_core_get_current_call_duration
+linphone_call_get_remote_user_agent  @20   NONAME; linphone_call_get_remote_user_agent
+linphone_call_get_state  @21   NONAME; linphone_call_get_state
+linphone_core_get_identity  @22   NONAME; linphone_core_get_identity
+linphone_core_add_auth_info  @23   NONAME; linphone_core_add_auth_info
+linphone_core_set_default_proxy  @24   NONAME; linphone_core_set_default_proxy
+linphone_core_add_proxy_config  @25   NONAME;  linphone_core_add_proxy_config
+linphone_core_send_dtmf  @26   NONAME; linphone_core_send_dtmf
+linphone_auth_info_new  @27   NONAME; linphone_auth_info_new
+linphone_auth_info_get_passwd  @28   NONAME; linphone_auth_info_get_passwd
+linphone_auth_info_get_username  @29   NONAME; linphone_auth_info_get_username
+linphone_core_get_auth_info_list  @30   NONAME; linphone_core_get_auth_info_list
+linphone_address_new  @31   NONAME; linphone_address_new
+linphone_address_destroy  @32   NONAME; linphone_address_destroy
+linphone_address_as_string  @33   NONAME; linphone_address_as_string
+linphone_address_set_display_name  @34   NONAME; linphone_address_set_display_name
+linphone_address_set_username  @35   NONAME; linphone_address_set_username
+linphone_address_get_username  @36   NONAME; linphone_address_get_username
+linphone_proxy_config_new  @37   NONAME; linphone_proxy_config_new
+linphone_proxy_config_set_server_addr  @38   NONAME; linphone_proxy_config_set_server_addr
+linphone_proxy_config_enable_register  @39   NONAME; linphone_proxy_config_enable_register
+linphone_proxy_config_set_identity  @40   NONAME; linphone_proxy_config_set_identity
+linphone_proxy_config_normalize_number  @41   NONAME; linphone_proxy_config_normalize_number
+linphone_proxy_config_set_dial_escape_plus  @42   NONAME; linphone_proxy_config_set_dial_escape_plus
+linphone_proxy_config_is_registered  @43   NONAME; linphone_proxy_config_is_registered
+linphone_proxy_config_get_addr  @44   NONAME; linphone_proxy_config_get_addr
+linphone_core_clear_all_auth_info  @45   NONAME; linphone_core_clear_all_auth_info
+linphone_core_clear_proxy_config  @46   NONAME; linphone_core_clear_proxy_config
+linphone_core_remove_proxy_config  @47   NONAME; linphone_core_remove_proxy_config
+linphone_core_enable_logs_with_cb  @48   NONAME; linphone_core_enable_logs_with_cb
+linphone_core_get_user_data  @49   NONAME; linphone_core_get_user_data
+linphone_core_enable_agc  @50   NONAME; linphone_core_enable_agc
+linphone_core_agc_enabled  @51   NONAME; linphone_core_agc_enabled
+linphone_core_enable_video_preview  @52  NONAME; linphone_core_enable_video_preview
+linphone_core_set_native_preview_window_id  @53   NONAME; linphone_core_set_native_preview_window_id
+linphone_core_enable_video  @54   NONAME; linphone_core_enable_video
+linphone_core_set_native_video_window_id  @55   NONAME; linphone_core_set_native_video_window_id
+linphone_core_set_video_device  @56   NONAME; linphone_core_set_video_device
+linphone_core_set_download_bandwidth  @57  NONAME; linphone_core_set_download_bandwidth 
+linphone_core_set_upload_bandwidth  @58   NONAME; linphone_core_set_upload_bandwidth
+linphone_core_set_playback_gain_db  @59   NONAME; linphone_core_set_playback_gain_db
+linphone_core_set_play_level  @60   NONAME; linphone_core_set_play_level
+linphone_core_set_rec_level  @61   NONAME; linphone_core_set_rec_level
+linphone_call_take_video_snapshot  @62   NONAME; linphone_call_take_video_snapshot
+linphone_core_get_video_device  @63   NONAME; linphone_core_get_video_device
+linphone_core_get_video_devices  @64   NONAME; linphone_core_get_video_devices
+ortp_free  @65   NONAME; ortp_free
+ortp_strdup_printf  @66   NONAME; ortp_strdup_printf
+ortp_strdup_vprintf  @67   NONAME; ortp_strdup_vprintf
+linphone_core_set_playback_device  @68   NONAME; linphone_core_set_playback_device
+linphone_core_set_capture_device  @69   NONAME; linphone_core_set_capture_device
+linphone_core_get_playback_device  @70   NONAME; linphone_core_get_playback_device
+linphone_core_get_capture_device  @71   NONAME; linphone_core_get_capture_device
+linphone_core_get_sound_devices  @72   NONAME; linphone_core_get_sound_devices
+linphone_core_sound_device_can_playback  @73   NONAME; linphone_core_sound_device_can_playback
+linphone_core_sound_device_can_capture  @74   NONAME; linphone_core_sound_device_can_capture
+linphone_sound_daemon_new  @75   NONAME; linphone_sound_daemon_new
+linphone_core_use_sound_daemon  @76   NONAME; linphone_core_use_sound_daemon
+linphone_core_set_sip_port  @77   NONAME; linphone_core_set_sip_port
+linphone_core_set_audio_transports  @78   NONAME; linphone_core_set_audio_transports
+linphone_core_set_audio_port  @79   NONAME; linphone_core_set_audio_port
+linphone_core_set_video_port  @80   NONAME; linphone_core_set_video_port
+linphone_conference_new  @81   NONAME; linphone_conference_new
+linphone_conference_start  @82   NONAME; linphone_conference_start
+linphone_conference_stop  @83   NONAME; linphone_conference_stop
+linphone_conference_new_mb  @84   NONAME; linphone_conference_new_mb
+linphone_conference_add_mb  @85   NONAME; linphone_conference_add_mb
+linphone_core_call_in_conferencing  @86   NONAME; linphone_core_call_in_conferencing
+linphone_conference_find_mb_by_call  @87   NONAME; linphone_conference_find_mb_by_call
+linphone_conference_remove_mb  @88   NONAME; linphone_conference_remove_mb
+linphone_conference_remove_all_mbs  @89   NONAME; linphone_conference_remove_all_mbs
+linphone_conference_get_members  @90   NONAME; linphone_conference_get_members
+linphone_conference_play_audio  @91   NONAME; linphone_conference_play_audio
+linphone_conference_play_audio_stop  @92   NONAME; linphone_conference_play_audio_stop
+linphone_conference_record_audio  @93   NONAME; linphone_conference_record_audio
+linphone_conference_enable_vad  @94   NONAME; linphone_conference_enable_vad
+linphone_conference_enable_agc  @96   NONAME; linphone_conference_enable_agc
+linphone_conference_set_gain  @97   NONAME; linphone_conference_set_gain
+linphone_conference_enable_halfduplex  @98   NONAME; linphone_conference_enable_halfduplex
+linphone_conference_set_vad_prob_start  @99   NONAME; linphone_conference_set_vad_prob_start 
+linphone_conference_set_vad_prob_continue  @100   NONAME; linphone_conference_set_vad_prob_continue
+linphone_conference_enable_directmode  @101   NONAME; linphone_conference_enable_directmode
+linphone_core_get_default_proxy  @102   NONAME; linphone_core_get_default_proxy
+linphone_conference_record_audio_stop  @103   NONAME; linphone_conference_record_audio_stop
+libmsilbc_init @104 NONAME; libmsilbc_init
+linphone_core_set_preferred_video_size_by_name @105  NONAME; linphone_core_set_preferred_video_size_by_name
+linphone_call_video_vfu_request @106 NONAME; linphone_call_video_vfu_request
+linphone_core_set_stun_server @107 NONAME; linphone_core_set_stun_server
+linphone_core_set_firewall_policy @108 NONAME; linphone_core_set_firewall_policy
+
+local_sound_card_new @109 NONAME; local_sound_card_new
+local_sound_card_start @110 NONAME; local_sound_card_start
+local_sound_card_stop @111 NONAME; local_sound_card_stop
+
+
+linphone_conference_add_local_sndcard @112 NONAME; linphone_conference_add_local_sndcard
+linphone_conference_remove_local_sndcard @113 NONAME; linphone_conference_remove_local_sndcard
+
+local_webcam_new @114 NONAME; local_webcam_new
+local_webcam_start @115 NONAME; local_webcam_start
+local_webcam_stop @116 NONAME; local_webcam_stop
+
+
+linphone_conference_add_local_webcam @117 NONAME; linphone_conference_add_local_webcam
+linphone_conference_remove_local_webcam @118 NONAME; linphone_conference_remove_local_webcam
+linphone_conference_remove_local_all_webcams @119 NONAME; linphone_conference_remove_local_all_webcams
+linphone_conference_remove_local_webcam_at_index @120 NONAME; linphone_conference_remove_local_webcam_at_index
+
+ms_web_cam_manager_get_cam @121 NONAME; ms_web_cam_manager_get_cam
+ms_web_cam_manager_get @122 NONAME; ms_web_cam_manager_get
+
+
+linphone_conference_is_full @123 NONAME; linphone_conference_is_full
+linphone_conference_video_enabled @124 NONAME; linphone_conference_video_enabled
+linphone_conference_ptt_enabled @125 NONAME; linphone_conference_ptt_enabled
+linphone_conference_get_sample_rate @126 NONAME; linphone_conference_get_sample_rate
+linphone_conference_get_video_size @127 NONAME; linphone_conference_get_video_size
+linphone_conference_get_video_fps @128 NONAME; linphone_conference_get_video_fps
+
+linphone_conference_enable_auto_layout @129 NONAME; linphone_conference_enable_auto_layout
+
+linphone_core_play_video_file @130 NONAME; linphone_core_play_video_file 
+linphone_core_play_video_file_stop @131 NONAME; linphone_core_play_video_file_stop 
+
+file_stream_new @132 NONAME; file_stream_new 
+file_stream_init @133 NONAME; file_stream_init 
+file_stream_open @134 NONAME; file_stream_open 
+file_stream_stop @136 NONAME; file_stream_stop 
+
+
+video_player_new @137 NONAME; video_player_new 
+video_player_set_audio_source @138 NONAME; video_player_set_audio_source 
+video_player_set_video_source @139 NONAME; video_player_set_video_source 
+video_player_start @140 NONAME; video_player_start 
+video_player_stop @141 NONAME; video_player_stop 
+
+file_stream_create_audio_filter @142 NONAME; file_stream_create_audio_filter
+file_stream_create_video_filter @143 NONAME; file_stream_create_video_filter
+
+file_stream_output_data @144 NONAME; file_stream_output_data
+
+file_stream_audio_get_rate @145 NONAME; file_stream_audio_get_rate
+file_stream_audio_get_nchannels @146 NONAME; file_stream_audio_get_nchannels
+file_stream_video_get_fps @147 NONAME; file_stream_video_get_fps
+file_stream_video_get_vsize @148 NONAME; file_stream_video_get_vsize
+
+video_player_set_rate @149 NONAME; video_player_set_rate
+video_player_set_nchannels @150 NONAME; video_player_set_nchannels
+video_player_set_video_size @151 NONAME; video_player_set_video_size
+video_player_set_fps @152 NONAME; video_player_set_fps
+file_stream_do_seek  @153 NONAME; file_stream_do_seek
+
+video_recoder_new @154 NONAME; video_recoder_new
+video_recoder_init @155 NONAME; video_recoder_init
+video_recoder_open_file @156 NONAME; video_recoder_open_file
+video_recoder_start @157 NONAME; video_recoder_start
+video_recoder_stop @158 NONAME; video_recoder_stop
+video_recoder_destory @159 NONAME; video_recoder_destory
+video_recoder_create_audio_filter @160 NONAME; video_recoder_create_audio_filter
+video_recoder_create_video_filter @161 NONAME; video_recoder_create_video_filter
+
+
+video_mail_record_new @162 NONAME; video_mail_record_new
+video_mail_record_set_rate @163 NONAME; video_mail_record_set_rate
+video_mail_record_set_nchannels @164 NONAME; video_mail_record_set_nchannels
+video_mail_record_set_fps @165 NONAME; video_mail_record_set_fps
+video_mail_record_set_video_size @166 NONAME; video_mail_record_set_video_size
+video_mail_record_set_audio_sink @167 NONAME; video_mail_record_set_audio_sink
+video_mail_record_set_video_sink @168 NONAME; video_mail_record_set_video_sink
+video_mail_record_start @169 NONAME; video_mail_record_start
+video_mail_record_stop @170 NONAME; video_mail_record_stop
+video_mail_record_start_recording @171 NONAME; video_mail_record_start_recording
+
+
+linphone_core_enable_self_view @172 NONAME; linphone_core_enable_self_view
+linphone_core_get_play_level @173 NONAME; linphone_core_get_play_level
+linphone_core_get_rec_level @174 NONAME; linphone_core_get_rec_level
+linphone_core_call_enable_udt_video @175 NONAME; linphone_core_call_enable_udt_video
+linphone_core_get_local_ip @176 NONAME; linphone_core_get_local_ip
+linphone_core_get_sip_port @177 NONAME; linphone_core_get_sip_port
+
+file_stream_destory @178 NONAME; file_stream_destory
+video_mail_record_set_bit_rate @179 NONAME; video_mail_record_set_bit_rate
+
+ms_file_player_cam_new @180 NONAME; ms_file_player_cam_new
+ms_file_player_snd_new @181 NONAME; ms_file_player_snd_new
+file_stream_start  @182 NONAME; file_stream_start
+file_stream_is_playling  @183 NONAME; file_stream_is_playling
+
+conf_stream_video_get_max_input  @184 NONAME; conf_stream_video_get_max_input
+conf_stream_video_mute_at_index  @185 NONAME; conf_stream_video_mute_at_index
+conf_stream_video_unmute_at_index @186 NONAME; conf_stream_video_unmute_at_index
+
+linphone_conference_show_member_at_index @187 NONAME; linphone_conference_show_member_at_index
+
+linphone_core_set_audio_jittcomp @188 NONAME; linphone_core_set_audio_jittcomp
+
+linphone_core_use_preview_window @189 NONAME; linphone_core_use_preview_window
+linphone_core_set_mcu_mode @190 NONAME; linphone_core_set_mcu_mode
+linphone_call_get_remote_address_as_string  @191 NONAME; linphone_call_get_remote_address_as_string
+
+linphone_call_record_video_file  @192 NONAME; linphone_call_record_video_file
+linphone_core_get_upload_bandwidth  @193 NONAME; linphone_core_get_upload_bandwidth
+linphone_core_get_preferred_video_size  @194 NONAME; linphone_core_get_preferred_video_size
+
+
+linphone_conference_start_video_record  @195 NONAME; linphone_conference_start_video_record
+linphone_conference_in_video_recording  @196 NONAME; linphone_conference_in_video_recording
+linphone_conference_stop_video_record  @197 NONAME; linphone_conference_stop_video_record
+
+linphone_conference_mute_ouput @198 NONAME; linphone_conference_mute_ouput
+linphone_conference_unmute_ouput @199 NONAME; linphone_conference_unmute_ouput
+linphone_conference_mute_alls_ouput @200 NONAME; linphone_conference_mute_alls_ouput
+linphone_conference_unmute_alls_ouput @201 NONAME; linphone_conference_unmute_alls_ouput
+
+linphone_core_send_picture_fast_update @202 NONAME; linphone_core_send_picture_fast_update
+
+linphone_conference_mb_get_call @203 NONAME; linphone_conference_mb_get_call
+linphone_core_sound_get_default_capture_device @204 NONAME; linphone_core_sound_get_default_capture_device
+linphone_core_sound_get_default_playback_device @205 NONAME; linphone_core_sound_get_default_playback_device

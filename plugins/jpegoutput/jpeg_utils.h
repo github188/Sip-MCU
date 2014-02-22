@@ -1,0 +1,2 @@
+int compress_image_to_jpeg(const unsigned char *framebuffer,MSPixFmt formatIn, int width,int height, unsigned char *buffer, int size, int quality);
+int jpeg_enc_yv12(char* buffer, int width, int height, int quality, char* filename);

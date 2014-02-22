@@ -1,0 +1,51 @@
+\section{yuv\_\-buffer Struct Reference}
+\label{structyuv__buffer}\index{yuv_buffer@{yuv\_\-buffer}}
+A YUV buffer for passing uncompressed frames to and from the codec.  
+
+
+{\tt \#include $<$theora.h$>$}
+
+\subsection*{Data Fields}
+\begin{CompactItemize}
+\item 
+int {\bf y\_\-width}\label{structyuv__buffer_1f6d315bbeac5c143e675bff7606d9fa}
+
+\begin{CompactList}\small\item\em Width of the Y' luminance plane. \item\end{CompactList}\item 
+int {\bf y\_\-height}\label{structyuv__buffer_c8af965f6efae51897a2f1690cbaf103}
+
+\begin{CompactList}\small\item\em Height of the luminance plane. \item\end{CompactList}\item 
+int {\bf y\_\-stride}\label{structyuv__buffer_1b556662ed0bc7866ee78e32687c0eea}
+
+\begin{CompactList}\small\item\em Offset in bytes between successive rows. \item\end{CompactList}\item 
+int {\bf uv\_\-width}\label{structyuv__buffer_464b8795e6f91436204710f1c3f957b9}
+
+\begin{CompactList}\small\item\em Height of the Cb and Cr chroma planes. \item\end{CompactList}\item 
+int {\bf uv\_\-height}\label{structyuv__buffer_e000b9579ca67e7aa3e40755517285cc}
+
+\begin{CompactList}\small\item\em Width of the chroma planes. \item\end{CompactList}\item 
+int {\bf uv\_\-stride}\label{structyuv__buffer_8501c16afe7c891ebc3aa4572f2a4ef3}
+
+\begin{CompactList}\small\item\em Offset between successive chroma rows. \item\end{CompactList}\item 
+unsigned char $\ast$ {\bf y}\label{structyuv__buffer_34464280b291ac3b8ffd8a6fd0ee2ce9}
+
+\begin{CompactList}\small\item\em Pointer to start of luminance data. \item\end{CompactList}\item 
+unsigned char $\ast$ {\bf u}\label{structyuv__buffer_05bc01e25bbad6c86e81c58997cbbe89}
+
+\begin{CompactList}\small\item\em Pointer to start of Cb data. \item\end{CompactList}\item 
+unsigned char $\ast$ {\bf v}\label{structyuv__buffer_2638f17c1f26aee27072148c3155b404}
+
+\begin{CompactList}\small\item\em Pointer to start of Cr data. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+A YUV buffer for passing uncompressed frames to and from the codec. 
+
+This holds a Y'Cb\-Cr frame in planar format. The Cb\-Cr planes can be subsampled and have their own separate dimensions and row stride offsets. Note that the strides may be negative in some configurations. For theora the width and height of the largest plane must be a multiple of 16. The actual meaningful picture size and offset are stored in the {\bf theora\_\-info}{\rm (p.\,\pageref{structtheora__info})} structure; frames returned by the decoder may need to be cropped for display.
+
+All samples are 8 bits. Within each plane samples are ordered by row from the top of the frame to the bottom. Within each row samples are ordered from left to right. 
+
+
+
+The documentation for this struct was generated from the following file:\begin{CompactItemize}
+\item 
+{\bf theora.h}\end{CompactItemize}

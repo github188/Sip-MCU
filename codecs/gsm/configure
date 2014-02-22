@@ -1,0 +1,29 @@
+#! /bin/sh
+
+if test "x$1" = x; then
+ arg="--prefix=/usr/local"
+else
+ arg=$1
+fi
+
+arg_dir=`echo $arg | awk '{ print $1}' | cut -d= -f1`
+
+if ! test "x$arg_dir" = "x--prefix"; then
+ echo "Bad argument"
+ exit 1
+fi
+
+install_dir=`echo $arg | awk '{ print $1}' | cut -d= -f2`
+
+if [ ! -d $install_dir ]; then
+ echo "warning: Directory does not exist!!"
+fi
+
+echo "install_dir is $install_dir ..."
+echo "building makefile..."
+
+echo "INSTALL_ROOT = $install_dir" > Makefile
+
+grep -v ^INSTALL_ROOT Makefile.in >> Makefile
+
+exit 0

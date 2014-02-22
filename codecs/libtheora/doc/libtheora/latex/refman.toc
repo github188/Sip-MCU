@@ -1,0 +1,50 @@
+\contentsline {chapter}{\numberline {1}libtheora Main Page}{1}
+\contentsline {section}{\numberline {1.1}Introduction}{1}
+\contentsline {chapter}{\numberline {2}libtheora Hierarchical Index}{3}
+\contentsline {section}{\numberline {2.1}libtheora Class Hierarchy}{3}
+\contentsline {chapter}{\numberline {3}libtheora Data Structure Index}{5}
+\contentsline {section}{\numberline {3.1}libtheora Data Structures}{5}
+\contentsline {chapter}{\numberline {4}libtheora File Index}{7}
+\contentsline {section}{\numberline {4.1}libtheora File List}{7}
+\contentsline {chapter}{\numberline {5}libtheora Data Structure Documentation}{9}
+\contentsline {section}{\numberline {5.1}theora\_\discretionary {-}{}{}comment Struct Reference}{9}
+\contentsline {subsection}{\numberline {5.1.1}Detailed Description}{9}
+\contentsline {section}{\numberline {5.2}theora\_\discretionary {-}{}{}info Struct Reference}{11}
+\contentsline {subsection}{\numberline {5.2.1}Detailed Description}{12}
+\contentsline {section}{\numberline {5.3}theora\_\discretionary {-}{}{}state Struct Reference}{13}
+\contentsline {subsection}{\numberline {5.3.1}Detailed Description}{13}
+\contentsline {section}{\numberline {5.4}yuv\_\discretionary {-}{}{}buffer Struct Reference}{14}
+\contentsline {subsection}{\numberline {5.4.1}Detailed Description}{14}
+\contentsline {chapter}{\numberline {6}libtheora File Documentation}{15}
+\contentsline {section}{\numberline {6.1}theora.h File Reference}{15}
+\contentsline {subsection}{\numberline {6.1.1}Detailed Description}{18}
+\contentsline {subsection}{\numberline {6.1.2}Enumeration Type Documentation}{18}
+\contentsline {subsubsection}{\numberline {6.1.2.1}\setlength {\rightskip }{0pt plus 5cm}enum {\bf theora\_\discretionary {-}{}{}colorspace}}{18}
+\contentsline {subsubsection}{\numberline {6.1.2.2}\setlength {\rightskip }{0pt plus 5cm}enum {\bf theora\_\discretionary {-}{}{}pixelformat}}{18}
+\contentsline {subsection}{\numberline {6.1.3}Function Documentation}{19}
+\contentsline {subsubsection}{\numberline {6.1.3.1}\setlength {\rightskip }{0pt plus 5cm}void theora\_\discretionary {-}{}{}clear ({\bf theora\_\discretionary {-}{}{}state} $\ast $ {\em t})}{19}
+\contentsline {subsubsection}{\numberline {6.1.3.2}\setlength {\rightskip }{0pt plus 5cm}void theora\_\discretionary {-}{}{}comment\_\discretionary {-}{}{}add ({\bf theora\_\discretionary {-}{}{}comment} $\ast $ {\em tc}, char $\ast $ {\em comment})}{19}
+\contentsline {subsubsection}{\numberline {6.1.3.3}\setlength {\rightskip }{0pt plus 5cm}void theora\_\discretionary {-}{}{}comment\_\discretionary {-}{}{}add\_\discretionary {-}{}{}tag ({\bf theora\_\discretionary {-}{}{}comment} $\ast $ {\em tc}, char $\ast $ {\em tag}, char $\ast $ {\em value})}{19}
+\contentsline {subsubsection}{\numberline {6.1.3.4}\setlength {\rightskip }{0pt plus 5cm}void theora\_\discretionary {-}{}{}comment\_\discretionary {-}{}{}clear ({\bf theora\_\discretionary {-}{}{}comment} $\ast $ {\em tc})}{19}
+\contentsline {subsubsection}{\numberline {6.1.3.5}\setlength {\rightskip }{0pt plus 5cm}void theora\_\discretionary {-}{}{}comment\_\discretionary {-}{}{}init ({\bf theora\_\discretionary {-}{}{}comment} $\ast $ {\em tc})}{19}
+\contentsline {subsubsection}{\numberline {6.1.3.6}\setlength {\rightskip }{0pt plus 5cm}char$\ast $ theora\_\discretionary {-}{}{}comment\_\discretionary {-}{}{}query ({\bf theora\_\discretionary {-}{}{}comment} $\ast $ {\em tc}, char $\ast $ {\em tag}, int {\em count})}{20}
+\contentsline {subsubsection}{\numberline {6.1.3.7}\setlength {\rightskip }{0pt plus 5cm}int theora\_\discretionary {-}{}{}comment\_\discretionary {-}{}{}query\_\discretionary {-}{}{}count ({\bf theora\_\discretionary {-}{}{}comment} $\ast $ {\em tc}, char $\ast $ {\em tag})}{20}
+\contentsline {subsubsection}{\numberline {6.1.3.8}\setlength {\rightskip }{0pt plus 5cm}int theora\_\discretionary {-}{}{}decode\_\discretionary {-}{}{}header ({\bf theora\_\discretionary {-}{}{}info} $\ast $ {\em ci}, {\bf theora\_\discretionary {-}{}{}comment} $\ast $ {\em cc}, ogg\_\discretionary {-}{}{}packet $\ast $ {\em op})}{20}
+\contentsline {subsubsection}{\numberline {6.1.3.9}\setlength {\rightskip }{0pt plus 5cm}int theora\_\discretionary {-}{}{}decode\_\discretionary {-}{}{}init ({\bf theora\_\discretionary {-}{}{}state} $\ast $ {\em th}, {\bf theora\_\discretionary {-}{}{}info} $\ast $ {\em c})}{21}
+\contentsline {subsubsection}{\numberline {6.1.3.10}\setlength {\rightskip }{0pt plus 5cm}int theora\_\discretionary {-}{}{}decode\_\discretionary {-}{}{}packetin ({\bf theora\_\discretionary {-}{}{}state} $\ast $ {\em th}, ogg\_\discretionary {-}{}{}packet $\ast $ {\em op})}{21}
+\contentsline {subsubsection}{\numberline {6.1.3.11}\setlength {\rightskip }{0pt plus 5cm}int theora\_\discretionary {-}{}{}decode\_\discretionary {-}{}{}YUVout ({\bf theora\_\discretionary {-}{}{}state} $\ast $ {\em th}, {\bf yuv\_\discretionary {-}{}{}buffer} $\ast $ {\em yuv})}{22}
+\contentsline {subsubsection}{\numberline {6.1.3.12}\setlength {\rightskip }{0pt plus 5cm}int theora\_\discretionary {-}{}{}encode\_\discretionary {-}{}{}comment ({\bf theora\_\discretionary {-}{}{}comment} $\ast $ {\em tc}, ogg\_\discretionary {-}{}{}packet $\ast $ {\em op})}{22}
+\contentsline {subsubsection}{\numberline {6.1.3.13}\setlength {\rightskip }{0pt plus 5cm}int theora\_\discretionary {-}{}{}encode\_\discretionary {-}{}{}header ({\bf theora\_\discretionary {-}{}{}state} $\ast $ {\em t}, ogg\_\discretionary {-}{}{}packet $\ast $ {\em op})}{22}
+\contentsline {subsubsection}{\numberline {6.1.3.14}\setlength {\rightskip }{0pt plus 5cm}int theora\_\discretionary {-}{}{}encode\_\discretionary {-}{}{}init ({\bf theora\_\discretionary {-}{}{}state} $\ast $ {\em th}, {\bf theora\_\discretionary {-}{}{}info} $\ast $ {\em ti})}{22}
+\contentsline {subsubsection}{\numberline {6.1.3.15}\setlength {\rightskip }{0pt plus 5cm}int theora\_\discretionary {-}{}{}encode\_\discretionary {-}{}{}packetout ({\bf theora\_\discretionary {-}{}{}state} $\ast $ {\em t}, int {\em last\_\discretionary {-}{}{}p}, ogg\_\discretionary {-}{}{}packet $\ast $ {\em op})}{23}
+\contentsline {subsubsection}{\numberline {6.1.3.16}\setlength {\rightskip }{0pt plus 5cm}int theora\_\discretionary {-}{}{}encode\_\discretionary {-}{}{}tables ({\bf theora\_\discretionary {-}{}{}state} $\ast $ {\em t}, ogg\_\discretionary {-}{}{}packet $\ast $ {\em op})}{23}
+\contentsline {subsubsection}{\numberline {6.1.3.17}\setlength {\rightskip }{0pt plus 5cm}int theora\_\discretionary {-}{}{}encode\_\discretionary {-}{}{}YUVin ({\bf theora\_\discretionary {-}{}{}state} $\ast $ {\em t}, {\bf yuv\_\discretionary {-}{}{}buffer} $\ast $ {\em yuv})}{23}
+\contentsline {subsubsection}{\numberline {6.1.3.18}\setlength {\rightskip }{0pt plus 5cm}ogg\_\discretionary {-}{}{}int64\_\discretionary {-}{}{}t theora\_\discretionary {-}{}{}granule\_\discretionary {-}{}{}frame ({\bf theora\_\discretionary {-}{}{}state} $\ast $ {\em th}, ogg\_\discretionary {-}{}{}int64\_\discretionary {-}{}{}t {\em granulepos})}{24}
+\contentsline {subsubsection}{\numberline {6.1.3.19}\setlength {\rightskip }{0pt plus 5cm}int theora\_\discretionary {-}{}{}granule\_\discretionary {-}{}{}shift ({\bf theora\_\discretionary {-}{}{}info} $\ast $ {\em ti})}{24}
+\contentsline {subsubsection}{\numberline {6.1.3.20}\setlength {\rightskip }{0pt plus 5cm}double theora\_\discretionary {-}{}{}granule\_\discretionary {-}{}{}time ({\bf theora\_\discretionary {-}{}{}state} $\ast $ {\em th}, ogg\_\discretionary {-}{}{}int64\_\discretionary {-}{}{}t {\em granulepos})}{24}
+\contentsline {subsubsection}{\numberline {6.1.3.21}\setlength {\rightskip }{0pt plus 5cm}void theora\_\discretionary {-}{}{}info\_\discretionary {-}{}{}clear ({\bf theora\_\discretionary {-}{}{}info} $\ast $ {\em c})}{25}
+\contentsline {subsubsection}{\numberline {6.1.3.22}\setlength {\rightskip }{0pt plus 5cm}void theora\_\discretionary {-}{}{}info\_\discretionary {-}{}{}init ({\bf theora\_\discretionary {-}{}{}info} $\ast $ {\em c})}{25}
+\contentsline {subsubsection}{\numberline {6.1.3.23}\setlength {\rightskip }{0pt plus 5cm}int theora\_\discretionary {-}{}{}packet\_\discretionary {-}{}{}isheader (ogg\_\discretionary {-}{}{}packet $\ast $ {\em op})}{25}
+\contentsline {subsubsection}{\numberline {6.1.3.24}\setlength {\rightskip }{0pt plus 5cm}int theora\_\discretionary {-}{}{}packet\_\discretionary {-}{}{}iskeyframe (ogg\_\discretionary {-}{}{}packet $\ast $ {\em op})}{25}
+\contentsline {subsubsection}{\numberline {6.1.3.25}\setlength {\rightskip }{0pt plus 5cm}ogg\_\discretionary {-}{}{}uint32\_\discretionary {-}{}{}t theora\_\discretionary {-}{}{}version\_\discretionary {-}{}{}number (void)}{26}
+\contentsline {subsubsection}{\numberline {6.1.3.26}\setlength {\rightskip }{0pt plus 5cm}const char$\ast $ theora\_\discretionary {-}{}{}version\_\discretionary {-}{}{}string (void)}{26}

@@ -1,0 +1,285 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\VideoConference.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\VideoConference.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 VideoConference"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "VideoConference，1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_VIDEOCONFERENCE_DIALOG DIALOGEX 0, 0, 435, 448
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "视频会议"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CTEXT           "",IDC_STATIC_STATUS,3,1,430,8
+    EDITTEXT        IDC_EDIT_DIAL,40,103,103,14,ES_AUTOHSCROLL
+    LTEXT           "拨号:",IDC_STATIC,15,106,17,8
+    PUSHBUTTON      "呼叫",ID_BUTTON_DIAL,39,130,50,14
+    CONTROL         "URI",IDC_CHECK_URI_MODE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,96,119,23,10
+    PUSHBUTTON      "挂断",IDC_BUTTON_HANGUP,94,130,50,14
+    RTEXT           "用户名:",IDC_STATIC,13,25,24,8
+    RTEXT           "密码:",IDC_STATIC,20,40,17,8
+    RTEXT           "服务器:",IDC_STATIC,13,56,24,8
+    EDITTEXT        IDC_EDIT_ACCOUNT,40,22,67,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SECRET,40,37,67,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SERVER,40,53,102,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "注册",IDC_BUTTON_REGISTER,39,69,50,14
+    PUSHBUTTON      "注销",IDC_BUTTON_UNREGISTER,93,69,50,14
+    PUSHBUTTON      "截图",IDC_BUTTON_CAPTURE_PIC,153,154,50,14
+    CONTROL         "",IDC_CALL_LIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,154,24,277,126
+    LTEXT           "呼叫列表:",IDC_STATIC,154,13,31,8
+    CONTROL         "视频呼叫",IDC_CHECK_ENABLED_VIDEO,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,40,119,43,10
+    COMBOBOX        IDC_COMBO_VIDEO_DEVICES,39,230,104,82,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "摄像头:",IDC_STATIC,10,231,24,8
+    PUSHBUTTON      "开始会议",IDC_BUTTON_START_CONF,40,345,50,14
+    PUSHBUTTON      "放音",IDC_BUTTON_CONF_PLAY_AUDIO,40,377,50,14
+    PUSHBUTTON      "录音",IDC_BUTTON_CONF_RECORD_FILE,95,377,50,14
+    COMBOBOX        IDC_COMBO_AUDIP_CAP,39,192,104,78,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_AUDIO_PLAY,39,211,104,83,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "麦克风:",IDC_STATIC,11,194,24,8
+    LTEXT           "扬声器:",IDC_STATIC,11,213,24,8
+    PUSHBUTTON      "VAD",IDC_BUTTON_CONF_VAD,40,393,50,14
+    PUSHBUTTON      "AGC",IDC_BUTTON_CONF_AGC,95,393,50,14
+    CONTROL         "视频会议",IDC_CHECK_VIDEO_CONF,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,100,304,43,10
+    COMBOBOX        IDC_COMBO_COM_MAX_USERS,40,287,48,112,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "会议容量:",IDC_STATIC,6,289,31,8
+    COMBOBOX        IDC_COMBO_BANDWIDTH,39,153,105,90,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "带宽",IDC_STATIC,19,155,15,8
+    CONTROL         "本地视频监视",IDC_CHECK_VIDEO_MONITOR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,41,318,53,10
+    CONTROL         "自动布局/固定布局",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,41,331,74,10
+    GROUPBOX        "会议控制",IDC_STATIC,4,278,144,166
+    GROUPBOX        "本地硬件",IDC_STATIC,5,180,143,96
+    GROUPBOX        "呼叫控制",IDC_STATIC,5,89,142,88
+    GROUPBOX        "SIP 帐号注册",IDC_STATIC,5,11,143,76
+    PUSHBUTTON      "发送I帧",IDC_BUTTON_I_KEY,209,154,50,14
+    PUSHBUTTON      "添加声卡",IDC_BUTTON_TEST,95,345,50,14
+    PUSHBUTTON      "添加摄像头",IDC_BUTTON_ADD_CAM,40,361,50,14
+    PUSHBUTTON      "移除摄像头",IDC_BUTTON_REMOVE_CAM,95,361,50,14
+    CONTROL         "本地参与",IDC_CHECK_LOCAL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,41,304,43,10
+    CONTROL         "HD 模式",IDC_CHECK_HD_MODE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,100,318,41,10
+    PUSHBUTTON      "播放视频文件",IDC_BUTTON_PLAY_VIDEO_FILE,381,172,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "播放视频文件",IDC_BUTTON_PLAYER,156,190,50,14
+    CONTROL         "",IDC_SLIDER1,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,152,207,275,15
+    PUSHBUTTON      "录制视频",IDC_BUTTON_ECC,326,191,50,14
+    PUSHBUTTON      "录制/推送",IDC_BUTTON_RECORD,381,191,50,14,NOT WS_VISIBLE
+    CONTROL         "",IDC_SLIDER2,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,38,245,106,15
+    CONTROL         "",IDC_SLIDER3,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,38,260,110,15
+    RTEXT           "输入音量",IDC_STATIC,8,248,28,8
+    RTEXT           "输出音量",IDC_STATIC,8,263,28,8
+    EDITTEXT        IDC_EDIT_VIDEO_VIEW,153,226,273,214,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "UDT 模式",IDC_BUTTON_UDT,381,153,50,14
+    PUSHBUTTON      "播放 文件/视频流",IDC_BUTTON_OPENFILE,218,190,63,14
+    EDITTEXT        IDC_EDIT_VIDEO_CONF_LINE,42,411,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "发言",IDC_BUTTON_SHOW_MB,94,411,50,14
+    CONTROL         "窗口模式",IDC_CHECK_WINDOW_MODE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,271,156,43,10
+    CONTROL         "摄像头预览",IDC_CHECK_CAMERA_PREVIEW,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,327,156,50,10
+    EDITTEXT        IDC_EDIT_RTMP_URL,156,173,163,14,ES_AUTOHSCROLL
+    CONTROL         "RTMP 模式",IDC_CHECK_PLAY_URL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,327,175,44,10
+    PUSHBUTTON      "录制/发布会议",IDC_BUTTON_CONF_VIDEO_RECODING,94,428,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "MicroVoice Video Conference"
+            VALUE "FileDescription", "Video Conference"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "VideoConference.exe"
+            VALUE "LegalCopyright", "MicroVoice JP"
+            VALUE "OriginalFilename", "VideoConference.exe"
+            VALUE "ProductName", "Video Conference"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_VIDEOCONFERENCE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 428
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 441
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_CALL_LIST MENU 
+BEGIN
+    POPUP "CallIst"
+    BEGIN
+        MENUITEM "接通",                          ID_CALLIST_ACCEPT_CALL
+        MENUITEM "挂断",                          ID_CALLIST_DROP_CALL
+        MENUITEM "保持",                          ID_CALLIST_HOLD_CALL
+        MENUITEM "恢复",                          ID_CALLIST_RESUME_CALL
+        MENUITEM SEPARATOR
+        MENUITEM "加入会议",                        ID_CALLIST_JOIN_TO_CONF
+        MENUITEM "离开会议",                        ID_CALLIST_EXIT_CONF
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 VideoConference(&A)..."
+    IDP_SOCKETS_INIT_FAILED "Windows 套接字初始化失败。"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\VideoConference.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

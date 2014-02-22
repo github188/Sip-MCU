@@ -1,0 +1,7 @@
+LIBRARY	libdrawtext
+
+EXPORTS
+
+Configure
+Process
+Release

@@ -1,0 +1,3 @@
+noinst_PROGRAMS=v4l_mosaic
+
+v4l_mosaic_SOURCES=v4l_mosaic.c

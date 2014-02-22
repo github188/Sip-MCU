@@ -1,0 +1,594 @@
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=latex 2006.6.20)  20 JUN 2006 13:31
+entering extended mode
+**refman.tex
+(./refman.tex
+LaTeX2e <2003/12/01>
+Babel <v3.8d> and hyphenation patterns for american, french, german, ngerman, b
+ahasa, basque, bulgarian, catalan, croatian, czech, danish, dutch, esperanto, e
+stonian, finnish, greek, icelandic, irish, italian, latin, magyar, norsk, polis
+h, portuges, romanian, russian, serbian, slovak, slovene, spanish, swedish, tur
+kish, ukrainian, nohyphenation, loaded.
+(/usr/share/texmf-tetex/tex/latex/base/book.cls
+Document Class: book 2004/02/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf-tetex/tex/latex/base/bk10.clo
+File: bk10.clo 2004/02/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-tetex/tex/latex/a4wide/a4wide.sty
+Package: a4wide 1994/08/30
+
+(/usr/share/texmf-tetex/tex/latex/ntgclass/a4.sty
+Package: a4 2004/04/15 v1.2g A4 based page layout
+))
+(/usr/share/texmf-tetex/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+(/usr/share/texmf-tetex/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(/usr/share/texmf-tetex/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-tetex/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-tetex/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-tetex/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf-tetex/tex/latex/graphics/graphics.cfg
+File: graphics.cfg 2005/02/03 v1.3 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 80.
+
+(/usr/share/texmf-tetex/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texmf-tetex/tex/latex/tools/multicol.sty
+Package: multicol 2004/02/14 v1.6e multicolumn formatting (FMi)
+\c@tracingmulticols=\count88
+\mult@box=\box26
+\multicol@leftmargin=\dimen105
+\c@unbalance=\count89
+\c@collectmore=\count90
+\doublecol@number=\count91
+\multicoltolerance=\count92
+\multicolpretolerance=\count93
+\full@width=\dimen106
+\page@free=\dimen107
+\premulticols=\dimen108
+\postmulticols=\dimen109
+\multicolsep=\skip52
+\multicolbaselineskip=\skip53
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count94
+\c@finalcolumnbadness=\count95
+\last@try=\dimen110
+\multicolovershoot=\dimen111
+\multicolundershoot=\dimen112
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+)
+(/usr/share/texmf-tetex/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count96
+\float@exts=\toks15
+\float@box=\box52
+\@float@everytoks=\toks16
+\@floatcapt=\box53
+)
+(/usr/share/texmf-tetex/tex/latex/base/textcomp.sty
+Package: textcomp 2004/02/22 v1.99f Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/usr/share/texmf-tetex/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 311.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 312.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 313.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 314.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 315.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 316.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 317.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 318.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 319.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 320.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 321.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 322.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 323.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 324.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 326.
+)
+(/usr/share/texmf-tetex/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+) (./doxygen.sty
+Package: doxygen 
+
+(/usr/share/texmf-tetex/tex/latex/tools/calc.sty
+Package: calc 1998/07/07 v4.1b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count97
+\calc@Bcount=\count98
+\calc@Adimen=\dimen113
+\calc@Bdimen=\dimen114
+\calc@Askip=\skip54
+\calc@Bskip=\skip55
+LaTeX Info: Redefining \setlength on input line 59.
+LaTeX Info: Redefining \addtolength on input line 60.
+\calc@denominator=\count99
+)
+(/usr/share/texmf-tetex/tex/latex/tools/array.sty
+Package: array 2003/12/17 v2.4a Tabular extension package (FMi)
+\col@sep=\dimen115
+\extrarowheight=\dimen116
+\NC@list=\toks17
+\extratabsurround=\skip56
+\backup@length=\skip57
+)
+\tmplength=\skip58
+)
+(/usr/share/texmf-tetex/tex/latex/base/fontenc.sty
+Package: fontenc 2004/02/22 v1.99f Standard LaTeX package
+
+(/usr/share/texmf-tetex/tex/latex/base/t1enc.def
+File: t1enc.def 2004/02/22 v1.99f Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+\@indexfile=\write3
+\openout3 = `refman.idx'.
+
+
+Writing index file refman.idx
+(./refman.aux (./structtheora__info.aux) (./structtheora__state.aux)
+(./structyuv__buffer.aux))
+\openout1 = `refman.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 14.
+ (/usr/share/texmf-tetex/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 14.
+
+[1
+
+
+] [2
+
+] (./refman.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+)
+\tf@toc=\write4
+\openout4 = `refman.toc'.
+
+ [1
+
+] [2
+
+]
+Chapter 1.
+(./index.tex
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 2.
+ (/usr/share/texmf-tetex/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)) [1
+
+] [2
+
+]
+Chapter 2.
+(./hierarchy.tex) [3] [4
+
+]
+Chapter 3.
+(./annotated.tex) [5] [6
+
+]
+Chapter 4.
+(./files.tex) [7] [8
+
+]
+Chapter 5.
+(./structtheora__comment.tex [9]) [10]
+\openout2 = `structtheora__info.aux'.
+
+ (./structtheora__info.tex [11
+
+]) [12]
+\openout2 = `structtheora__state.aux'.
+
+
+(./structtheora__state.tex) [13
+
+
+]
+\openout2 = `structyuv__buffer.aux'.
+
+ (./structyuv__buffer.tex) [14
+
+
+]
+Chapter 6.
+(./theora_8h.tex [15
+
+
+]
+Underfull \hbox (badness 1281) in paragraph at lines 53--58
+[]\T1/cmr/m/n/10 enum \T1/cmr/bx/n/10 theora_-colorspace \T1/cmr/m/n/10 { \T1/c
+mr/bx/n/10 OC_-CS_-UNSPECIFIED\T1/cmr/m/n/10 , \T1/cmr/bx/n/10 OC_-CS_-ITU_-REC
+_-
+ []
+
+[16] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
+
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--267
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--281
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--317
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--380
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 385--385
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--402
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--419
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--431
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 455--455
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 475--475
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--480
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--489
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 494--494
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--496
+
+ []
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--520
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 532--532
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 537--537
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 549--549
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 554--554
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 569--569
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
+
+ []
+
+) (./refman.ind [26] [27
+
+] [28
+
+]) (./refman.aux (./structtheora__info.aux)
+(./structtheora__state.aux) (./structyuv__buffer.aux)) ) 
+Here is how much of TeX's memory you used:
+ 1818 strings out of 94501
+ 26851 string characters out of 1175811
+ 71724 words of memory out of 1000000
+ 4939 multiletter control sequences out of 10000+50000
+ 16714 words of font info for 33 fonts, out of 500000 for 2000
+ 580 hyphenation exceptions out of 8191
+ 29i,11n,43p,1163b,408s stack positions out of 1500i,500n,5000p,200000b,5000s
+
+Output written on refman.dvi (32 pages, 54108 bytes).

@@ -1,0 +1,40 @@
+This autoconf package installs the plugin into the mediastreamer
+directory under /usr/local.  Please use './configure --prefix' to
+change it.
+
+For successful compilation, the package libilbc0-rfc3951 or similar
+must be installed.  You need the shared library libilbc0 and the
+pkg-config file with the build options. If you are using a package
+manager to install libilbc0, please keep in mind that pkg-config
+file could be located among development files.  In many distributions
+those are in a separate package, such as libilbc0-rfc3951-dev.
+
+This package makes it optional to use 30ms frames.  Please note that
+some VOIP providers, such as Gizmo5 (aka Sipphone), require the use
+of 30ms frames.
+
+To use 30ms packets, please just run:
+
+  ./configure
+
+To use 20ms frames, please define the environment variable
+MSILBC_CFLAGS="-DUSE_20MS_FRAMES=1" or invoke configure with:
+
+  ./configure MSILBC_CFLAGS="-DUSE_20MS_FRAMES=1"
+
+or
+
+  ./configure --enable-20ms-frames
+
+For the effect of these settings on bandwidth and quality, please
+have a look at http://www.ilbcfreeware.org/.
+
+To compile, please run
+
+  make all
+
+To install, please run
+
+  make install
+
+iLBC and Global IP Solutions are trademarks of Global IP Solutions.

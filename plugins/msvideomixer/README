@@ -1,0 +1,5 @@
+
+* compile and install the plugin:
+	./configure --prefix=<prefix of linphone/mediastreamer installation>
+	make 
+	make install

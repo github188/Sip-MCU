@@ -1,0 +1,66 @@
+From 5022c7047d877aceb4ffd9b27f8d846bab168c16 Mon Sep 17 00:00:00 2001
+From: Dmitry Sobinov <sobinov@crystalnix.com>
+Date: Thu, 2 Dec 2010 10:56:34 +0600
+Subject: [PATCH] Common header size usage fixes
+
+---
+ src/rtcpparse.c |   12 ++++++------
+ 1 files changed, 6 insertions(+), 6 deletions(-)
+
+diff --git a/src/rtcpparse.c b/src/rtcpparse.c
+index 64df2c7..27aa44e 100644
+--- a/src/rtcpparse.c
++++ b/src/rtcpparse.c
+@@ -196,7 +196,7 @@ bool_t rtcp_is_BYE(const mblk_t *m){
+ 	const rtcp_common_header_t *ch=rtcp_get_common_header(m);
+ 	if (ch && rtcp_common_header_get_packet_type(ch)==RTCP_BYE){
+ 		if (msgdsize(m)<sizeof(rtcp_common_header_t)+
+-			rtcp_common_header_get_length(ch)){
++			(4*rtcp_common_header_get_length(ch))){
+ 			ortp_warning("Too short RTCP BYE packet.");
+ 			return FALSE;
+ 		}
+@@ -208,7 +208,7 @@ bool_t rtcp_is_BYE(const mblk_t *m){
+ bool_t rtcp_BYE_get_ssrc(const mblk_t *m, int idx, uint32_t *ssrc){
+ 	rtcp_bye_t *bye=(rtcp_bye_t*)m->b_rptr;
+ 	int rc=rtcp_common_header_get_rc(&bye->ch);
+-	int len=rtcp_common_header_get_length(&bye->ch);
++	int len=rtcp_common_header_get_length(&bye->ch)*4;
+ 	if (idx<rc){
+ 		if ((uint8_t*)&bye->ssrc[idx]<=(m->b_rptr
+ 				+sizeof(rtcp_common_header_t)+len-4)) {
+@@ -224,7 +224,7 @@ bool_t rtcp_BYE_get_ssrc(const mblk_t *m, int idx, uint32_t *ssrc){
+ bool_t rtcp_BYE_get_reason(const mblk_t *m, const char **reason, int *reason_len){
+ 	rtcp_bye_t *bye=(rtcp_bye_t*)m->b_rptr;
+ 	int rc=rtcp_common_header_get_rc(&bye->ch);
+-	int len=rtcp_common_header_get_length(&bye->ch);
++	int len=rtcp_common_header_get_length(&bye->ch)*4;
+ 	uint8_t *rptr=(uint8_t*)m->b_rptr+sizeof(rtcp_common_header_t)+rc*4;
+ 	uint8_t *end=(uint8_t*)(m->b_rptr+sizeof(rtcp_common_header_t)+len);
+ 	if (rptr<end){
+@@ -246,11 +246,11 @@ bool_t rtcp_is_APP(const mblk_t *m){
+ 	const rtcp_common_header_t *ch=rtcp_get_common_header(m);
+ 	if (ch!=NULL && rtcp_common_header_get_packet_type(ch)==RTCP_APP){
+ 		if (msgdsize(m)<sizeof(rtcp_common_header_t)+
+-			rtcp_common_header_get_length(ch)){
++			(4*rtcp_common_header_get_length(ch))){
+ 			ortp_warning("Too short RTCP APP packet.");
+ 			return FALSE;
+ 		}
+-		if (sizeof(rtcp_common_header_t)+rtcp_common_header_get_length(ch)
++		if (sizeof(rtcp_common_header_t)+(4*rtcp_common_header_get_length(ch))
+ 			< sizeof(rtcp_app_t)){
+ 			ortp_warning("Bad RTCP APP packet.");
+ 			return FALSE;
+@@ -277,7 +277,7 @@ void rtcp_APP_get_name(const mblk_t *m, char *name){
+ /* retrieve the data. when returning, data points directly into the mblk_t */
+ void rtcp_APP_get_data(const mblk_t *m, uint8_t **data, int *len){
+ 	rtcp_app_t *app=(rtcp_app_t*)m->b_rptr;
+-	int datalen=sizeof(rtcp_common_header_t)+rtcp_common_header_get_length(&app->ch)-8;
++	int datalen=sizeof(rtcp_common_header_t)+(4*rtcp_common_header_get_length(&app->ch))-8;
+ 	if (datalen>0){
+ 		*data=(uint8_t*)m->b_rptr+sizeof(rtcp_app_t);
+ 		*len=datalen;
+-- 
+1.7.2.3
+
