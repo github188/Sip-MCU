@@ -1,5 +1,4 @@
 FOR /F "tokens=*" %%G IN ('DIR /B /AD /S Debug*') DO echo "%%G" && rd /Q /S  "%%G"
-FOR /F "tokens=*" %%G IN ('DIR /B /AD /S .svn*') DO echo "%%G" && rd /Q /S  "%%G"
 FOR /F "tokens=*" %%G IN ('DIR /B /AD /S Release*') DO echo "%%G" && rd /Q /S "%%G"
 FOR /F "tokens=*" %%G IN ('DIR /B /AD /S *ipch') DO echo "%%G" && rd /Q /S  "%%G"
 FOR /F "tokens=*" %%G IN ('DIR /B /S *.user') DO echo "%%G" && del /Q "%%G"
